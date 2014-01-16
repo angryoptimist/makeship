@@ -1,0 +1,345 @@
+{
+    "blockImage": "starcastle.png", 
+    "blockKey": [
+        {
+            "comment": "Teleporter", 
+            "flags": [
+                "playerSpawn"
+            ], 
+            "object": "teleporter", 
+            "objectParameters": {
+                "unbreakable": true
+            }, 
+            "value": [0, 255, 255]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "composite01", 
+            "comment": "Titanium Panel", 
+            "foregroundBlock": true, 
+            "foregroundMat": "composite01", 
+            "value": [198, 195, 216]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "metallic", 
+            "comment": "Hi-tech Block", 
+            "foregroundBlock": true, 
+            "foregroundMat": "metallic", 
+            "value": [143, 158, 149]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "apexshipwall", 
+            "comment": "Wall Panel", 
+            "foregroundBlock": false, 
+            "value": [204, 232, 255]
+        }, 
+        {
+            "comment": "Main booster", 
+            "object": "boosterflame", 
+            "value": [180, 153, 207]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "apexshipsupport", 
+            "comment": "Support Block", 
+            "foregroundBlock": false, 
+            "value": [89, 98, 106]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "modernplatform", 
+            "comment": "Modern Platform", 
+            "foregroundBlock": true, 
+            "foregroundMat": "modernplatform", 
+            "value": [223, 200, 200]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "castlewalls2", 
+            "comment": "Small Stone Brick wall", 
+            "foregroundBlock": false, 
+            "value": [94, 92, 111]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "plate", 
+            "comment": "Smooth Plated Block", 
+            "foregroundBlock": true, 
+            "foregroundMat": "plate", 
+            "value": [132, 142, 158]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "rooftiles", 
+            "comment": "Glitch Castle Roof", 
+            "foregroundBlock": true, 
+            "foregroundMat": "rooftiles", 
+            "value": [255, 78, 0]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "glass", 
+            "comment": "Glass wall", 
+            "foregroundBlock": false, 
+            "value": [190, 255, 253]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "mediummetal", 
+            "comment": "Steel Block wall", 
+            "foregroundBlock": false, 
+            "value": [181, 183, 167]
+        }, 
+        {
+            "backgroundBlock": false, 
+            "comment": "Empty space", 
+            "foregroundBlock": false, 
+            "value": [255, 255, 255]
+        }, 
+        {
+            "comment": "Glitch Torch", 
+            "object": "medievaltorch", 
+            "value": [234, 193, 0]
+        }, 
+        {
+            "comment": "Durasteel Light", 
+            "object": "tier4light", 
+            "value": [209, 248, 0]
+        }, 
+        {
+            "comment": "Captain's Chair", 
+            "object": "apexcaptainschair", 
+            "objectDirection": "left", 
+            "value": [0, 200, 255]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "dirt", 
+            "comment": "Dirt", 
+            "foregroundBlock": true, 
+            "foregroundMat": "dirt", 
+            "value": [106, 63, 38]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "mediummetal", 
+            "comment": "Steel Block", 
+            "foregroundBlock": true, 
+            "foregroundMat": "mediummetal", 
+            "value": [156, 158, 144]
+        }, 
+        {
+            "comment": "Ship Locker", 
+            "object": "apexshiplocker", 
+            "objectParameter": {
+                "treasurePools": [
+                    "starterTreasure"
+                ]
+            }, 
+            "value": [0, 0, 255]
+        }, 
+        {
+            "comment": "Ship Light (small)", 
+            "object": "shiplight", 
+            "value": [225, 219, 0]
+        }, 
+        {
+            "comment": "Fuel Hatch", 
+            "object": "apexfuelhatch", 
+            "value": [0, 100, 255]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "wreckplatform", 
+            "comment": "Wrecked Platform", 
+            "foregroundBlock": true, 
+            "foregroundMat": "wreckplatform", 
+            "value": [207, 153, 153]
+        }, 
+        {
+            "comment": "Invisible light (unused)", 
+            "object": "invisiblelight", 
+            "value": [246, 0, 255]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "metallic", 
+            "comment": "Hi-tech Block wall", 
+            "foregroundBlock": false, 
+            "value": [168, 185, 175]
+        }, 
+        {
+            "comment": "Tall Fluorescent Lamp", 
+            "object": "bunkerlightv", 
+            "value": [89, 213, 139]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "smoothmetal", 
+            "comment": "Smooth Metal wall", 
+            "foregroundBlock": false, 
+            "value": [162, 169, 179]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "junktech", 
+            "comment": "Junk Tech wall", 
+            "foregroundBlock": false, 
+            "value": [100, 123, 98]
+        }, 
+        {
+            "comment": "Wide Fluorescent Lamp", 
+            "object": "bunkerlighth", 
+            "value": [107, 255, 166]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "rustymetal", 
+            "comment": "Rusty Metal", 
+            "foregroundBlock": true, 
+            "foregroundMat": "rustymetal", 
+            "value": [97, 88, 77]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "apexshipdetails", 
+            "comment": "Metal Object", 
+            "foregroundBlock": false, 
+            "value": [82, 94, 104]
+        }, 
+        {
+            "comment": "Modern Sliding Door", 
+            "object": "bunkerslidingdoor", 
+            "value": [142, 137, 166]
+        }, 
+        {
+            "comment": "Apex Security Door", 
+            "object": "apexcooldoor", 
+            "value": [133, 133, 123]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "rustymetal", 
+            "comment": "Rusty Metal wall", 
+            "foregroundBlock": false, 
+            "value": [125, 114, 100]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "plate", 
+            "comment": "Smooth Plated Block wall", 
+            "foregroundBlock": false, 
+            "value": [150, 162, 179]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "lightmetal", 
+            "comment": "Light Metal wall", 
+            "foregroundBlock": false, 
+            "value": [200, 206, 223]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "glass", 
+            "comment": "Glass", 
+            "foregroundBlock": true, 
+            "foregroundMat": "glass", 
+            "value": [166, 223, 221]
+        }, 
+        {
+            "comment": "Ship Light", 
+            "object": "apexshiplight", 
+            "value": [255, 248, 0]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "smoothmetal", 
+            "comment": "Smooth Metal", 
+            "foregroundBlock": true, 
+            "foregroundMat": "smoothmetal", 
+            "value": [143, 149, 158]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "castlewalls1", 
+            "comment": "Heavy Stone Bricks", 
+            "foregroundBlock": true, 
+            "foregroundMat": "castlewalls1", 
+            "value": [76, 77, 88]
+        }, 
+        {
+            "comment": "Fluorescent Lamp", 
+            "object": "fluorescentlight", 
+            "value": [255, 228, 107]
+        }, 
+        {
+            "comment": "Tech Station", 
+            "object": "techstation", 
+            "value": [0, 150, 255]
+        }, 
+        {
+            "comment": "Tesla spike", 
+            "object": "teslaspike", 
+            "value": [51, 104, 255]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "castlewalls1", 
+            "comment": "Heavy Stone Bricks wall", 
+            "foregroundBlock": false, 
+            "value": [102, 103, 118]
+        }, 
+        {
+            "comment": "Small, vertical booster", 
+            "object": "smallboosterflame", 
+            "value": [145, 123, 167]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "comment": "Border", 
+            "foregroundBlock": true, 
+            "value": [255, 0, 0]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "composite01", 
+            "comment": "Titanium Panel wall", 
+            "foregroundBlock": false, 
+            "value": [217, 213, 236]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "junktech", 
+            "comment": "Junk Tech", 
+            "foregroundBlock": true, 
+            "foregroundMat": "junktech", 
+            "value": [79, 97, 77]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "lightmetal", 
+            "comment": "Light Metal", 
+            "foregroundBlock": true, 
+            "foregroundMat": "lightmetal", 
+            "value": [181, 186, 201]
+        }, 
+        {
+            "comment": "Ship Door", 
+            "object": "apexshipdoor", 
+            "value": [0, 255, 0]
+        }, 
+        {
+            "backgroundBlock": true, 
+            "backgroundMat": "castlewalls2", 
+            "comment": "Small Stone Brick", 
+            "foregroundBlock": true, 
+            "foregroundMat": "castlewalls2", 
+            "value": [63, 61, 74]
+        }
+    ], 
+    "config": {
+        "fuelMax": 10000
+    }
+}
